@@ -1,4 +1,4 @@
-# Probability-and-Statistics-Project
+# Probability and Statistics Project
 
 Task 1:
 
