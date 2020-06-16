@@ -38,10 +38,12 @@ while True:
     elif rand2 < prob2[1]:
         pos2 = pos2 - 1
         positions2.append(positions2[-1]+1)
-  
-# plotting down the graph of the random walk in 1D 
-figure,plots = plt.subplots(2)
+
+figure,plots = plt.subplots(1,2)
+plots[0].set_title("First Node")
+plots[1].set_title("Second Node")
+plt.xlabel("Time(S)")
+plt.ylabel("Position")
 plots[0].plot(positions1)
-plt.xlabel("time(S)")
 plots[1].plot(positions2) 
-plt.show() 
+plt.show()
