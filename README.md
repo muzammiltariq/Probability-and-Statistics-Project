@@ -6,4 +6,4 @@
  * Abdullah Arif
 
 **Description:**
-This projecct uses python and some of its libraries to make up random walk models with different changes among them.
+This project uses python and some of its libraries to make up random walk models with different changes among them.
