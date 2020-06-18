@@ -1,5 +1,9 @@
 # Probability and Statistics Project
 
-Task 1:
+**Group Members:**
+ * Muzammil Tariq
+ * Faraz Ozair
+ * Abdullah Arif
 
-Task 2:
+**Description:**
+This projecct uses python and some of its libraries to make up random walk models with different changes among them.
