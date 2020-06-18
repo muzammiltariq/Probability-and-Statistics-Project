@@ -24,12 +24,12 @@ for i in range(50):
     numbers.append(random.randint(0, 1000)/1000.0)
 for i in numbers:
     if i == prob[2]:
-        positions.append(positions[-1])
+        positions.append(random.uniform(0, 1))
     elif i < prob[0]:
-        positions.append(positions[-1]-1)
+        positions.append(random.uniform(0, 1))
     elif i > prob[1]:
-        positions.append(positions[-1]+1)
-
+        positions.append(random.uniform(0, 1))
+plt.title("task 4")
 plt.plot(positions)
 plt.show()
 print(math.inf)
