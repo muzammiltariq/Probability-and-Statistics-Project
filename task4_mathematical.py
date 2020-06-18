@@ -21,4 +21,3 @@ for i in numbers:
 plt.title("task 4")
 plt.plot(positions)
 plt.show()
-print(math.inf)

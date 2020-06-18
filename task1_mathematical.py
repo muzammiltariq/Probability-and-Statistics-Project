@@ -19,5 +19,4 @@ for i in numbers:
         positions.append(positions[-1]+1)
 
 plt.plot(positions) 
-plt.show() 
-print(math.inf)
+plt.show()
