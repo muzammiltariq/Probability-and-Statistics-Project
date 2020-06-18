@@ -10,7 +10,8 @@ print(numbers)
 bob = turtle.Turtle()
 bob.speed(1)
 pos1 = bob.pos()
-for i in range(100):  # this range could be change to observe more number of trials, e.g. for i in range(1000)
+# this range could be change to observe more number of trials, e.g. for i in range(1000):
+for i in range(100):
     choose = random.choice(numbers)
     if (choose > 0.5):
         bob.color("red")
