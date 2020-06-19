@@ -16,6 +16,6 @@ while True:
         node.goto(0, 100)  # Takes the node back to the centre of the circle
         node.pendown()
     # randomly generates a number between 0 and 1
-    node.forward(random.choice(moves)*100)
+    node.forward(random.choice(moves)*10)
     # randomly generates a number between 0 and 360
     node.right(random.uniform(0, 360))
