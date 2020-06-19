@@ -8,7 +8,7 @@ moves = [0,1]
 angles = [0,360]
 steps = 0
 
-for i in range(5):
+for i in range(10):
 
     bob.speed(10)
     bob.circle(100)
