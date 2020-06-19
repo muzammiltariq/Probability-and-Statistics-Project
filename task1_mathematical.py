@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import math
 random.seed()
 prob = [0.5, 0.5, 0] # Change this to change the probability
-
 start = 0   # Change this to change starting position
 positions = [start] 
   
@@ -19,4 +18,4 @@ for i in numbers:
         positions.append(positions[-1]+1)
 
 plt.plot(positions) 
-plt.show()
+plt.show() 

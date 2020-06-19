@@ -59,5 +59,4 @@ for i in range(5):
     node.clear()
     node1.clear()
 
-
 print("Average Steps = ", steps//5)

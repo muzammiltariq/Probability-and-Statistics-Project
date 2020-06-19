@@ -21,9 +21,7 @@ while True:
     node.right(deg)
     node.forward(move)
     if current >= (100**2):
-        #node.penup()
         node.goto(0,100) # Takes the node back to the centre of the circle 
-        #node.pendown()
     else:
         node.backward(move)
         node.pendown()

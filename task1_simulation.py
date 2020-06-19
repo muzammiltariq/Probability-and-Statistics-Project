@@ -7,11 +7,12 @@ wn.title("Task 1 Simulation")
 numbers = []
 for i in range(50):
     numbers.append(random.random())
-print(numbers)
 bob= turtle.Turtle()
+centre = turtle.Turtle()
+centre.shape("circle")
 start = 40   # Change start position
 bob.penup()
-bob.goto(start,0)
+bob.goto(start,0) # Takes the node to the starting position
 bob.pendown()
 bob.speed(1)
 bob.color("green")
