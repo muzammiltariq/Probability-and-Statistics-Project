@@ -27,13 +27,13 @@ for i in range(10):
     node1.color("green")
 
     while True:
-        if (abs((abs(node1.pos()[1]) - abs(node.pos()[1]))) < 10) or (abs((abs(node1.pos()[0]) - abs(node.pos()[0]))) < 10):
+        if (abs((abs(node1.pos()[1]) - abs(node.pos()[1]))) < 1) or (abs((abs(node1.pos()[0]) - abs(node.pos()[0]))) < 1):
             break
-        move = random.uniform(moves[0],moves[1])*10
+        move = random.uniform(moves[0],moves[1])
         deg = random.uniform(angles[0],angles[1])
         current = ((node.pos()[0]-0)**2) + ((node.pos()[1]-100)**2)
 
-        move1 = random.uniform(moves[0],moves[1])*10
+        move1 = random.uniform(moves[0],moves[1])
         deg1 = random.uniform(angles[0],angles[1])
         current1 = ((node1.pos()[0]-0)**2) + ((node1.pos()[1]-100)**2)    
 
